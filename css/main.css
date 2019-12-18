@@ -3,3 +3,40 @@ body{
 background-color: #99ccff;
 }
 
+ li a {
+  color:#C3073F;
+   display:block;
+   text-align:center;
+   padding: 16px;
+   font-weight: 920;
+}
+
+li a:hover {
+  background-color:gray;
+}
+
+li a:visited{
+  color:yellow;
+}
+
+li{
+  float:left;
+  font-size:22px;
+  font-family:cursive;
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:red;
+}
+
+#info{
+  border:solid;
+  border-radius:15px;
+  max-width:500px;
+  margin:auto;
+  padding:30px;
+}
