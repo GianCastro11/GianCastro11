@@ -2,6 +2,17 @@ for(i = 0;i < 30; i++){
   document.write ("Loop number"+ i +"<br />");
 }
 
+for(i = 200; i > 150; i--){
+  document.write ("Loop Number"+ i +"<br />");
+}
+
+var ans = Math.pow(2,9)
+document.write("Power of:" + ans + "<br />")
+
+for(i = 2; i < 9; i++){
+  document.write("Loop of " + i + "<br />")
+}
+
 var beginning = 20;
 var limit = -20;
 
